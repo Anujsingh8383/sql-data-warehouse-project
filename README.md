@@ -209,6 +209,6 @@ The final data warehouse provides a structured and organized foundation for **da
 
 ## 👨‍💻 Author
 
-**Ankul Chaudhary**
+**Anuj Singh**
 
 This project is part of my learning journey in **SQL, Data Warehousing, and Data Analytics**, with a focus on building practical skills through hands-on projects.
