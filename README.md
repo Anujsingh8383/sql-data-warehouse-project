@@ -11,7 +11,7 @@ The project covers the complete data warehousing workflow, from understanding th
 ## 🏗️ Data Architecture
 
 The project follows a **Medallion Architecture** consisting of three layers:
-![Data Architecture](data_architecture.png.png)
+![Data Architecture](data_architecture.png)
 ```
 
 ### 🥉 Bronze Layer
