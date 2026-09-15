@@ -11,31 +11,27 @@ The project covers the complete data warehousing workflow, from understanding th
 ## 🏗️ Data Architecture
 
 The project follows a **Medallion Architecture** consisting of three layers:
-![Data Architecture](docs/data_architecture.png)
-```
 
+![Data Architecture](docs/data_architecture.png)
 ### 🥉 Bronze Layer
 
 The Bronze layer stores the data from the source dataset in its raw form. Minimal transformations are performed at this stage to preserve the original source information.
-
 ### 🥈 Silver Layer
 
 The Silver layer contains cleaned and standardized data. Data quality issues such as duplicates, missing values, inconsistent formats, and invalid records are addressed here.
-
 ### 🥇 Gold Layer
 
 The Gold layer contains business-ready data designed for analytical queries and reporting. The data is organized using **fact and dimension tables** based on dimensional modeling principles.
-
-
+---
 ## 🔄 Data Flow
 
 The data flow diagram illustrates how data moves through the different layers of the data warehouse, from the source dataset to the final business-ready data.
 
 The process starts with raw data from the source dataset. The data is loaded into the **Bronze Layer**, where it is stored in its raw form. It then moves to the **Silver Layer** for cleaning, transformation, and standardization. Finally, the processed data is loaded into the **Gold Layer**, where it is organized into business-ready tables and views for analytics and reporting.
 
-<p align="center">
-  <img src="./docs/data_flow_diagram.png" alt="Data Flow Diagram" width="100%">
-</p>
+![Data Flow Diagram](docs/data_flow_diagram.png)
+
+---
 
 
 ## 🛠️ Tools & Technologies
