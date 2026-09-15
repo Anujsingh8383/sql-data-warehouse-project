@@ -33,7 +33,9 @@ The data flow diagram illustrates how data moves through the different layers of
 
 The process starts with raw data from the source dataset. The data is loaded into the **Bronze Layer**, where it is stored in its raw form. It then moves to the **Silver Layer** for cleaning, transformation, and standardization. Finally, the processed data is loaded into the **Gold Layer**, where it is organized into business-ready tables and views for analytics and reporting.
 
-![Data Flow Diagram](docs/data_flow_diagram.png)
+<p align="center">
+  <img src="./docs/data_flow_diagram.png" alt="Data Flow Diagram" width="100%">
+</p>
 
 
 ## 🛠️ Tools & Technologies
