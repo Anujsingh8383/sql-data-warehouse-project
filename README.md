@@ -11,39 +11,7 @@ The project covers the complete data warehousing workflow, from understanding th
 ## 🏗️ Data Architecture
 
 The project follows a **Medallion Architecture** consisting of three layers:
-
-```text
-                         SOURCE DATASET
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │    BRONZE LAYER     │
-                    │                     │
-                    │     Raw Data        │
-                    │  No / Minimal       │
-                    │   Transformation    │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │    SILVER LAYER     │
-                    │                     │
-                    │   Cleaned Data      │
-                    │ Standardized Data   │
-                    │  Data Validation    │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │     GOLD LAYER      │
-                    │                     │
-                    │ Business-Ready Data │
-                    │ Fact & Dimension    │
-                    │      Tables         │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                     ANALYSIS & REPORTING
+![Data Architecture](data_architecture.png)
 ```
 
 ### 🥉 Bronze Layer
